@@ -72,7 +72,6 @@ export default function page({ searchParams }) {
                 </SelectContent>
               </Select>
 
-              {/* Pola color – tu użyjemy np. <Input> z shadcn, jeśli chcesz */}
               <Label htmlFor="color1">Kolor 1</Label>
               <Input id="color1" type="color" name="color1" defaultValue={color1} />
 
